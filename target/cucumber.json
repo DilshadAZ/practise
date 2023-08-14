@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "verify Baby Page is displaying with all contents",
+        "description": "",
+        "id": "this-is-baby-page-displaying-feature;verify-baby-page-is-displaying-with-all-contents",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6689375200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open URL",
+            "match": {
+              "location": "stepdefin.open_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3422703500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click dropdown",
+            "match": {
+              "location": "stepdefin.click_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5064130100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click search button",
+            "match": {
+              "location": "stepdefin.click_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This Is Baby Page Displaying Feature",
+    "description": "",
+    "id": "this-is-baby-page-displaying-feature",
+    "keyword": "Feature",
+    "uri": "displaying.feature"
+  }
+]
